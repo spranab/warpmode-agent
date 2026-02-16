@@ -1,10 +1,10 @@
 {
   "name": "warpmode-agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local compilation agent for AIHuddle/WarpMode codespace. Compiles and runs AI-generated code on your machine.",
   "type": "module",
   "bin": {
-    "warpmode-agent": "./bin/cli.mjs"
+    "warpmode-agent": "bin/cli.mjs"
   },
   "files": [
     "bin/",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spranab/warpmode-agent"
+    "url": "git+https://github.com/spranab/warpmode-agent.git"
   },
   "homepage": "https://warpmode.app",
   "engines": {
